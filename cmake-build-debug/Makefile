@@ -240,6 +240,33 @@ classes\Message.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\classes\Message.cpp.s
 .PHONY : classes\Message.cpp.s
 
+classes\User.obj: classes\User.cpp.obj
+
+.PHONY : classes\User.obj
+
+# target to build an object file
+classes\User.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\classes\User.cpp.obj
+.PHONY : classes\User.cpp.obj
+
+classes\User.i: classes\User.cpp.i
+
+.PHONY : classes\User.i
+
+# target to preprocess a source file
+classes\User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\classes\User.cpp.i
+.PHONY : classes\User.cpp.i
+
+classes\User.s: classes\User.cpp.s
+
+.PHONY : classes\User.s
+
+# target to generate assembly for a file
+classes\User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\classes\User.cpp.s
+.PHONY : classes\User.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -294,6 +321,33 @@ tests\messageTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\tests\messageTest.cpp.s
 .PHONY : tests\messageTest.cpp.s
 
+tests\userTest.obj: tests\userTest.cpp.obj
+
+.PHONY : tests\userTest.obj
+
+# target to build an object file
+tests\userTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj
+.PHONY : tests\userTest.cpp.obj
+
+tests\userTest.i: tests\userTest.cpp.i
+
+.PHONY : tests\userTest.i
+
+# target to preprocess a source file
+tests\userTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\tests\userTest.cpp.i
+.PHONY : tests\userTest.cpp.i
+
+tests\userTest.s: tests\userTest.cpp.s
+
+.PHONY : tests\userTest.s
+
+# target to generate assembly for a file
+tests\userTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\tests\userTest.cpp.s
+.PHONY : tests\userTest.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -313,12 +367,18 @@ help:
 	@echo ... classes/Message.obj
 	@echo ... classes/Message.i
 	@echo ... classes/Message.s
+	@echo ... classes/User.obj
+	@echo ... classes/User.i
+	@echo ... classes/User.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... tests/messageTest.obj
 	@echo ... tests/messageTest.i
 	@echo ... tests/messageTest.s
+	@echo ... tests/userTest.obj
+	@echo ... tests/userTest.i
+	@echo ... tests/userTest.s
 .PHONY : help
 
 

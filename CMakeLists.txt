@@ -3,7 +3,7 @@ project(ChatProject)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ChatProject main.cpp tests/messageTest.cpp classes/Message.cpp classes/Message.h)
+add_executable(ChatProject main.cpp tests/messageTest.cpp classes/Message.cpp classes/Message.h tests/userTest.cpp classes/User.cpp classes/User.h)
 
 add_subdirectory(lib/googletest-master)
 include_directories(lib/googletest-master/googletest/include)

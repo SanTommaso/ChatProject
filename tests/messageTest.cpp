@@ -14,6 +14,6 @@ TEST(MessageTest, ToString){
     stringstream expectedToStringOutput;
     expectedToStringOutput << mockUsername << " - "
     << asctime(localtime(&mockTime)) << mockContent << endl;
-    cout << expectedToStringOutput.str();
+
     ASSERT_EQ(expectedToStringOutput.str(), message.toString());
 }

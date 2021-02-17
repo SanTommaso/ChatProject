@@ -4,6 +4,9 @@
 CMakeFiles\ChatProject.dir\classes\Message.cpp.obj: ..\classes\Message.cpp
 CMakeFiles\ChatProject.dir\classes\Message.cpp.obj: ..\classes\Message.h
 
+CMakeFiles\ChatProject.dir\classes\User.cpp.obj: ..\classes\User.cpp
+CMakeFiles\ChatProject.dir\classes\User.cpp.obj: ..\classes\User.h
+
 CMakeFiles\ChatProject.dir\main.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\gmock-actions.h
 CMakeFiles\ChatProject.dir\main.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\gmock-cardinalities.h
 CMakeFiles\ChatProject.dir\main.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\gmock-function-mocker.h
@@ -78,4 +81,42 @@ CMakeFiles\ChatProject.dir\tests\messageTest.cpp.obj: ..\lib\googletest-master\g
 CMakeFiles\ChatProject.dir\tests\messageTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\gtest-type-util.h
 CMakeFiles\ChatProject.dir\tests\messageTest.cpp.obj: ..\classes\Message.h
 CMakeFiles\ChatProject.dir\tests\messageTest.cpp.obj: ..\tests\messageTest.cpp
+
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\gmock-actions.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\gmock-cardinalities.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\gmock-function-mocker.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\gmock-matchers.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\gmock-more-actions.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\gmock-more-matchers.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\gmock-nice-strict.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\gmock-spec-builders.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\gmock.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\internal\custom\gmock-generated-actions.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\internal\custom\gmock-matchers.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\internal\custom\gmock-port.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\internal\gmock-internal-utils.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\internal\gmock-port.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googlemock\include\gmock\internal\gmock-pp.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\gtest-death-test.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\gtest-matchers.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\gtest-message.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\gtest-param-test.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\gtest-printers.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\gtest-test-part.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\gtest-typed-test.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\gtest.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\gtest_pred_impl.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\gtest_prod.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\custom\gtest-port.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\custom\gtest-printers.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\gtest-death-test-internal.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\gtest-filepath.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\gtest-internal.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\gtest-param-util.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\gtest-port-arch.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\gtest-port.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\gtest-string.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\gtest-type-util.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\classes\User.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\tests\userTest.cpp
 
