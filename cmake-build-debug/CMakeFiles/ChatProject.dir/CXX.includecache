@@ -526,10 +526,6 @@ cxxabi.h
 acxx_demangle.h
 -
 
-C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
-string
--
-
 C:/Users/Sendo/CLionProjects/ChatProject/classes/User.cpp
 User.h
 C:/Users/Sendo/CLionProjects/ChatProject/classes/User.h
@@ -540,15 +536,9 @@ C:/Users/Sendo/CLionProjects/ChatProject/classes/User.h
 string
 -
 
-C:/Users/Sendo/CLionProjects/ChatProject/tests/messageTest.cpp
+C:/Users/Sendo/CLionProjects/ChatProject/main.cpp
 gtest/gtest.h
 -
-gmock/gmock.h
--
-string
--
-../classes/Message.h
-C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
 
 C:/Users/Sendo/CLionProjects/ChatProject/tests/userTest.cpp
 gtest/gtest.h

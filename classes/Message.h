@@ -1,6 +1,7 @@
 #ifndef CHATPROJECT_MESSAGE_H
 #define CHATPROJECT_MESSAGE_H
 #include <string>
+
 using namespace std;
 
 class Message {

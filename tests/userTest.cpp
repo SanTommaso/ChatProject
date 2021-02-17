@@ -1,4 +1,3 @@
-
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include <string>
@@ -11,7 +10,7 @@ TEST(UserTest, UserIDAssignment){
     User secondUser("Donald");
     User thirdUser("Goofy");
 
-    ASSERT_EQ(1, firstUser.getUserID());
-    ASSERT_EQ(2, secondUser.getUserID());
-    ASSERT_EQ(3, thirdUser.getUserID());
+    ASSERT_THAT(1, firstUser.getUserID());
+    ASSERT_THAT(2, secondUser.getUserID());
+    ASSERT_THAT(3, thirdUser.getUserID());
 }
