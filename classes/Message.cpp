@@ -4,6 +4,7 @@
 #include <ctime>
 
 using namespace std;
+
 Message::Message(string content, time_t timestamp, string username){
     this->content = content;
     this->timestamp = timestamp;

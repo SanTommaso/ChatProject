@@ -1,5 +1,6 @@
 #include "User.h"
 #include <string>
+#include <ctime>
 
 using namespace std;
 
@@ -12,5 +13,10 @@ User::User(string username){
 
 int User::getUserID() {
     return userID;
+}
+
+Message User::writeMessage(string content) {
+    Message message(content, time(nullptr), username);
+    return message;
 }
 

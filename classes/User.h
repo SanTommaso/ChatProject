@@ -1,6 +1,7 @@
 #ifndef CHATPROJECT_USER_H
 #define CHATPROJECT_USER_H
 #include <string>
+#include "Message.h"
 
 using namespace std;
 
@@ -12,6 +13,7 @@ private:
 public:
     User(string username);
     int getUserID();
+    Message writeMessage(string content);
 };
 
 

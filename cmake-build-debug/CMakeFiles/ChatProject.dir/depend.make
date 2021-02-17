@@ -4,6 +4,7 @@
 CMakeFiles\ChatProject.dir\classes\Message.cpp.obj: ..\classes\Message.cpp
 CMakeFiles\ChatProject.dir\classes\Message.cpp.obj: ..\classes\Message.h
 
+CMakeFiles\ChatProject.dir\classes\User.cpp.obj: ..\classes\Message.h
 CMakeFiles\ChatProject.dir\classes\User.cpp.obj: ..\classes\User.cpp
 CMakeFiles\ChatProject.dir\classes\User.cpp.obj: ..\classes\User.h
 
@@ -87,6 +88,7 @@ CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\goog
 CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\gtest-port.h
 CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\gtest-string.h
 CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\lib\googletest-master\googletest\include\gtest\internal\gtest-type-util.h
+CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\classes\Message.h
 CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\classes\User.h
 CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj: ..\tests\userTest.cpp
 
