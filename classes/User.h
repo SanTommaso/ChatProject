@@ -12,7 +12,7 @@ private:
 
 public:
     User(string username);
-    int getUserID();
+    int getUserID() const;
     Message writeMessage(string content);
 };
 

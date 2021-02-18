@@ -318,6 +318,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Sendo/CLionProjects/ChatProject/classes/Chat.cpp">
+			<Option target="ChatProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Sendo/CLionProjects/ChatProject/classes/Chat.h">
+			<Option target="ChatProject"/>
+		</Unit>
 		<Unit filename="C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.cpp">
 			<Option target="ChatProject"/>
 		</Unit>
@@ -346,6 +352,9 @@
 			<Option target="gtest_main"/>
 		</Unit>
 		<Unit filename="C:/Users/Sendo/CLionProjects/ChatProject/main.cpp">
+			<Option target="ChatProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Sendo/CLionProjects/ChatProject/tests/chatTest.cpp">
 			<Option target="ChatProject"/>
 		</Unit>
 		<Unit filename="C:/Users/Sendo/CLionProjects/ChatProject/tests/messageTest.cpp">

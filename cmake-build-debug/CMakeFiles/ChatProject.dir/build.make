@@ -156,13 +156,53 @@ CMakeFiles\ChatProject.dir\classes\User.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ChatProject.dir\classes\User.cpp.s /c C:\Users\Sendo\CLionProjects\ChatProject\classes\User.cpp
 <<
 
+CMakeFiles\ChatProject.dir\classes\Chat.cpp.obj: CMakeFiles\ChatProject.dir\flags.make
+CMakeFiles\ChatProject.dir\classes\Chat.cpp.obj: ..\classes\Chat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sendo\CLionProjects\ChatProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ChatProject.dir/classes/Chat.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ChatProject.dir\classes\Chat.cpp.obj /FdCMakeFiles\ChatProject.dir\ /FS -c C:\Users\Sendo\CLionProjects\ChatProject\classes\Chat.cpp
+<<
+
+CMakeFiles\ChatProject.dir\classes\Chat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatProject.dir/classes/Chat.cpp.i"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\ChatProject.dir\classes\Chat.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sendo\CLionProjects\ChatProject\classes\Chat.cpp
+<<
+
+CMakeFiles\ChatProject.dir\classes\Chat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatProject.dir/classes/Chat.cpp.s"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ChatProject.dir\classes\Chat.cpp.s /c C:\Users\Sendo\CLionProjects\ChatProject\classes\Chat.cpp
+<<
+
+CMakeFiles\ChatProject.dir\tests\chatTest.cpp.obj: CMakeFiles\ChatProject.dir\flags.make
+CMakeFiles\ChatProject.dir\tests\chatTest.cpp.obj: ..\tests\chatTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Sendo\CLionProjects\ChatProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ChatProject.dir/tests/chatTest.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ChatProject.dir\tests\chatTest.cpp.obj /FdCMakeFiles\ChatProject.dir\ /FS -c C:\Users\Sendo\CLionProjects\ChatProject\tests\chatTest.cpp
+<<
+
+CMakeFiles\ChatProject.dir\tests\chatTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatProject.dir/tests/chatTest.cpp.i"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\ChatProject.dir\tests\chatTest.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Sendo\CLionProjects\ChatProject\tests\chatTest.cpp
+<<
+
+CMakeFiles\ChatProject.dir\tests\chatTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatProject.dir/tests/chatTest.cpp.s"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ChatProject.dir\tests\chatTest.cpp.s /c C:\Users\Sendo\CLionProjects\ChatProject\tests\chatTest.cpp
+<<
+
 # Object files for target ChatProject
 ChatProject_OBJECTS = \
 "CMakeFiles\ChatProject.dir\main.cpp.obj" \
 "CMakeFiles\ChatProject.dir\tests\messageTest.cpp.obj" \
 "CMakeFiles\ChatProject.dir\classes\Message.cpp.obj" \
 "CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj" \
-"CMakeFiles\ChatProject.dir\classes\User.cpp.obj"
+"CMakeFiles\ChatProject.dir\classes\User.cpp.obj" \
+"CMakeFiles\ChatProject.dir\classes\Chat.cpp.obj" \
+"CMakeFiles\ChatProject.dir\tests\chatTest.cpp.obj"
 
 # External object files for target ChatProject
 ChatProject_EXTERNAL_OBJECTS =
@@ -172,12 +212,14 @@ ChatProject.exe: CMakeFiles\ChatProject.dir\tests\messageTest.cpp.obj
 ChatProject.exe: CMakeFiles\ChatProject.dir\classes\Message.cpp.obj
 ChatProject.exe: CMakeFiles\ChatProject.dir\tests\userTest.cpp.obj
 ChatProject.exe: CMakeFiles\ChatProject.dir\classes\User.cpp.obj
+ChatProject.exe: CMakeFiles\ChatProject.dir\classes\Chat.cpp.obj
+ChatProject.exe: CMakeFiles\ChatProject.dir\tests\chatTest.cpp.obj
 ChatProject.exe: CMakeFiles\ChatProject.dir\build.make
 ChatProject.exe: lib\gtestd.lib
 ChatProject.exe: lib\gtest_maind.lib
 ChatProject.exe: lib\gtestd.lib
 ChatProject.exe: CMakeFiles\ChatProject.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Sendo\CLionProjects\ChatProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ChatProject.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Sendo\CLionProjects\ChatProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ChatProject.exe"
 	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\ChatProject.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\ChatProject.dir\objects1.rsp @<<
  /out:ChatProject.exe /implib:ChatProject.lib /pdb:C:\Users\Sendo\CLionProjects\ChatProject\cmake-build-debug\ChatProject.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  lib\gtestd.lib lib\gtest_maind.lib lib\gtestd.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

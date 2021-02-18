@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Sendo/CLionProjects/ChatProject/classes/Chat.cpp" "C:/Users/Sendo/CLionProjects/ChatProject/cmake-build-debug/CMakeFiles/ChatProject.dir/classes/Chat.cpp.obj"
   "C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.cpp" "C:/Users/Sendo/CLionProjects/ChatProject/cmake-build-debug/CMakeFiles/ChatProject.dir/classes/Message.cpp.obj"
   "C:/Users/Sendo/CLionProjects/ChatProject/classes/User.cpp" "C:/Users/Sendo/CLionProjects/ChatProject/cmake-build-debug/CMakeFiles/ChatProject.dir/classes/User.cpp.obj"
   "C:/Users/Sendo/CLionProjects/ChatProject/main.cpp" "C:/Users/Sendo/CLionProjects/ChatProject/cmake-build-debug/CMakeFiles/ChatProject.dir/main.cpp.obj"
+  "C:/Users/Sendo/CLionProjects/ChatProject/tests/chatTest.cpp" "C:/Users/Sendo/CLionProjects/ChatProject/cmake-build-debug/CMakeFiles/ChatProject.dir/tests/chatTest.cpp.obj"
   "C:/Users/Sendo/CLionProjects/ChatProject/tests/messageTest.cpp" "C:/Users/Sendo/CLionProjects/ChatProject/cmake-build-debug/CMakeFiles/ChatProject.dir/tests/messageTest.cpp.obj"
   "C:/Users/Sendo/CLionProjects/ChatProject/tests/userTest.cpp" "C:/Users/Sendo/CLionProjects/ChatProject/cmake-build-debug/CMakeFiles/ChatProject.dir/tests/userTest.cpp.obj"
   )

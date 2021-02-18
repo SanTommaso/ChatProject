@@ -9,10 +9,11 @@ private:
     string content;
     time_t timestamp;
     string username;
-
+    int senderID;
 public:
-    Message(string content, time_t timestamp, string username);
+    Message(string content, time_t timestamp, string username, int senderID);
     string toString();
+    int getSenderID();
 };
 
 

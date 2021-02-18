@@ -50,48 +50,48 @@ The CXX compiler identification is MSVC, found in "C:/Users/Sendo/CLionProjects/
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Sendo/CLionProjects/ChatProject/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_f1e9a\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_f1e9a.dir\build.make /nologo -L                  CMakeFiles\cmTC_f1e9a.dir\build
-Building C object CMakeFiles/cmTC_f1e9a.dir/testCCompiler.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @C:\Users\Sendo\AppData\Local\Temp\nm5CBE.tmp
+Run Build Command(s):nmake /nologo cmTC_9743c\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_9743c.dir\build.make /nologo -L                  CMakeFiles\cmTC_9743c.dir\build
+Building C object CMakeFiles/cmTC_9743c.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @C:\Users\Sendo\AppData\Local\Temp\nmE0DD.tmp
 testCCompiler.c
-Linking C executable cmTC_f1e9a.exe
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_f1e9a.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_f1e9a.dir\objects1.rsp @C:\Users\Sendo\AppData\Local\Temp\nm5E16.tmp
+Linking C executable cmTC_9743c.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_9743c.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_9743c.dir\objects1.rsp @C:\Users\Sendo\AppData\Local\Temp\nmE246.tmp
 
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Sendo/CLionProjects/ChatProject/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_b4ca6\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_b4ca6.dir\build.make /nologo -L                  CMakeFiles\cmTC_b4ca6.dir\build
-Building C object CMakeFiles/cmTC_b4ca6.dir/CMakeCCompilerABI.c.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @C:\Users\Sendo\AppData\Local\Temp\nm61A0.tmp
+Run Build Command(s):nmake /nologo cmTC_be18a\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_be18a.dir\build.make /nologo -L                  CMakeFiles\cmTC_be18a.dir\build
+Building C object CMakeFiles/cmTC_be18a.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @C:\Users\Sendo\AppData\Local\Temp\nmE66B.tmp
 CMakeCCompilerABI.c
-Linking C executable cmTC_b4ca6.exe
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b4ca6.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_b4ca6.dir\objects1.rsp @C:\Users\Sendo\AppData\Local\Temp\nm61FE.tmp
+Linking C executable cmTC_be18a.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_be18a.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_be18a.dir\objects1.rsp @C:\Users\Sendo\AppData\Local\Temp\nmE6CA.tmp
 
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/Sendo/CLionProjects/ChatProject/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_0d9f5\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_0d9f5.dir\build.make /nologo -L                  CMakeFiles\cmTC_0d9f5.dir\build
-Building CXX object CMakeFiles/cmTC_0d9f5.dir/testCXXCompiler.cxx.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @C:\Users\Sendo\AppData\Local\Temp\nm65D6.tmp
+Run Build Command(s):nmake /nologo cmTC_393fe\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_393fe.dir\build.make /nologo -L                  CMakeFiles\cmTC_393fe.dir\build
+Building CXX object CMakeFiles/cmTC_393fe.dir/testCXXCompiler.cxx.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @C:\Users\Sendo\AppData\Local\Temp\nmEB0F.tmp
 testCXXCompiler.cxx
-Linking CXX executable cmTC_0d9f5.exe
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_0d9f5.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_0d9f5.dir\objects1.rsp @C:\Users\Sendo\AppData\Local\Temp\nm6644.tmp
+Linking CXX executable cmTC_393fe.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_393fe.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_393fe.dir\objects1.rsp @C:\Users\Sendo\AppData\Local\Temp\nmEB6D.tmp
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/Sendo/CLionProjects/ChatProject/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_aa669\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_aa669.dir\build.make /nologo -L                  CMakeFiles\cmTC_aa669.dir\build
-Building CXX object CMakeFiles/cmTC_aa669.dir/CMakeCXXCompilerABI.cpp.obj
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @C:\Users\Sendo\AppData\Local\Temp\nm6A2B.tmp
+Run Build Command(s):nmake /nologo cmTC_e9ce0\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_e9ce0.dir\build.make /nologo -L                  CMakeFiles\cmTC_e9ce0.dir\build
+Building CXX object CMakeFiles/cmTC_e9ce0.dir/CMakeCXXCompilerABI.cpp.obj
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @C:\Users\Sendo\AppData\Local\Temp\nmEF06.tmp
 CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_aa669.exe
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_aa669.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_aa669.dir\objects1.rsp @C:\Users\Sendo\AppData\Local\Temp\nm6A8A.tmp
+Linking CXX executable cmTC_e9ce0.exe
+	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_e9ce0.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100171~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_e9ce0.dir\objects1.rsp @C:\Users\Sendo\AppData\Local\Temp\nmEF65.tmp
 
 
 

@@ -8,15 +8,16 @@ static int progressiveID = 1;
 
 User::User(string username){
     this->username = username;
-    this->userID = progressiveID++;
+    this->userID = progressiveID;
+    progressiveID++;
 }
 
-int User::getUserID() {
+int User::getUserID() const {
     return userID;
 }
 
 Message User::writeMessage(string content) {
-    Message message(content, time(nullptr), username);
+    Message message(content, time(nullptr), username, userID);
     return message;
 }
 
