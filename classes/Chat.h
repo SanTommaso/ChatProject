@@ -14,6 +14,7 @@ public:
     Chat(const User& user1,const User& user2);
     void addMessage(Message message);
     vector<Message>::iterator getMessages();
+    bool checkParticipants(string usr1, string usr2);
 };
 
 

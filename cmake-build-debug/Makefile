@@ -240,6 +240,33 @@ classes\Chat.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\classes\Chat.cpp.s
 .PHONY : classes\Chat.cpp.s
 
+classes\ChatSystem.obj: classes\ChatSystem.cpp.obj
+
+.PHONY : classes\ChatSystem.obj
+
+# target to build an object file
+classes\ChatSystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\classes\ChatSystem.cpp.obj
+.PHONY : classes\ChatSystem.cpp.obj
+
+classes\ChatSystem.i: classes\ChatSystem.cpp.i
+
+.PHONY : classes\ChatSystem.i
+
+# target to preprocess a source file
+classes\ChatSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\classes\ChatSystem.cpp.i
+.PHONY : classes\ChatSystem.cpp.i
+
+classes\ChatSystem.s: classes\ChatSystem.cpp.s
+
+.PHONY : classes\ChatSystem.s
+
+# target to generate assembly for a file
+classes\ChatSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\classes\ChatSystem.cpp.s
+.PHONY : classes\ChatSystem.cpp.s
+
 classes\Message.obj: classes\Message.cpp.obj
 
 .PHONY : classes\Message.obj
@@ -320,6 +347,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\main.cpp.s
 .PHONY : main.cpp.s
+
+tests\chatSystemTest.obj: tests\chatSystemTest.cpp.obj
+
+.PHONY : tests\chatSystemTest.obj
+
+# target to build an object file
+tests\chatSystemTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\tests\chatSystemTest.cpp.obj
+.PHONY : tests\chatSystemTest.cpp.obj
+
+tests\chatSystemTest.i: tests\chatSystemTest.cpp.i
+
+.PHONY : tests\chatSystemTest.i
+
+# target to preprocess a source file
+tests\chatSystemTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\tests\chatSystemTest.cpp.i
+.PHONY : tests\chatSystemTest.cpp.i
+
+tests\chatSystemTest.s: tests\chatSystemTest.cpp.s
+
+.PHONY : tests\chatSystemTest.s
+
+# target to generate assembly for a file
+tests\chatSystemTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChatProject.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ChatProject.dir\tests\chatSystemTest.cpp.s
+.PHONY : tests\chatSystemTest.cpp.s
 
 tests\chatTest.obj: tests\chatTest.cpp.obj
 
@@ -421,6 +475,9 @@ help:
 	@echo ... classes/Chat.obj
 	@echo ... classes/Chat.i
 	@echo ... classes/Chat.s
+	@echo ... classes/ChatSystem.obj
+	@echo ... classes/ChatSystem.i
+	@echo ... classes/ChatSystem.s
 	@echo ... classes/Message.obj
 	@echo ... classes/Message.i
 	@echo ... classes/Message.s
@@ -430,6 +487,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... tests/chatSystemTest.obj
+	@echo ... tests/chatSystemTest.i
+	@echo ... tests/chatSystemTest.s
 	@echo ... tests/chatTest.obj
 	@echo ... tests/chatTest.i
 	@echo ... tests/chatTest.s

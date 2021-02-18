@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ChatProject.dir/classes/Chat.cpp.obj"
+  "CMakeFiles/ChatProject.dir/classes/ChatSystem.cpp.obj"
   "CMakeFiles/ChatProject.dir/classes/Message.cpp.obj"
   "CMakeFiles/ChatProject.dir/classes/User.cpp.obj"
   "CMakeFiles/ChatProject.dir/main.cpp.obj"
+  "CMakeFiles/ChatProject.dir/tests/chatSystemTest.cpp.obj"
   "CMakeFiles/ChatProject.dir/tests/chatTest.cpp.obj"
   "CMakeFiles/ChatProject.dir/tests/messageTest.cpp.obj"
   "CMakeFiles/ChatProject.dir/tests/userTest.cpp.obj"

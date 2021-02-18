@@ -324,6 +324,12 @@
 		<Unit filename="C:/Users/Sendo/CLionProjects/ChatProject/classes/Chat.h">
 			<Option target="ChatProject"/>
 		</Unit>
+		<Unit filename="C:/Users/Sendo/CLionProjects/ChatProject/classes/ChatSystem.cpp">
+			<Option target="ChatProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Sendo/CLionProjects/ChatProject/classes/ChatSystem.h">
+			<Option target="ChatProject"/>
+		</Unit>
 		<Unit filename="C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.cpp">
 			<Option target="ChatProject"/>
 		</Unit>
@@ -352,6 +358,9 @@
 			<Option target="gtest_main"/>
 		</Unit>
 		<Unit filename="C:/Users/Sendo/CLionProjects/ChatProject/main.cpp">
+			<Option target="ChatProject"/>
+		</Unit>
+		<Unit filename="C:/Users/Sendo/CLionProjects/ChatProject/tests/chatSystemTest.cpp">
 			<Option target="ChatProject"/>
 		</Unit>
 		<Unit filename="C:/Users/Sendo/CLionProjects/ChatProject/tests/chatTest.cpp">

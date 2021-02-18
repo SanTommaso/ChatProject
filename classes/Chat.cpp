@@ -1,7 +1,3 @@
-//
-// Created by Sendo on 2/18/2021.
-//
-
 #include <iostream>
 #include "Chat.h"
 
@@ -19,4 +15,17 @@ void Chat::addMessage(Message message)  {
 
 vector<Message>::iterator Chat::getMessages() {
     return messages.begin();
+}
+
+bool Chat::checkParticipants(string usr1, string usr2) {
+    if(user1.getUsername().compare(usr1) == 0)
+        if(user2.getUsername().compare(usr2) == 0){
+            return true;
+        }
+    if(user2.getUsername().compare(usr1) == 0)
+        if(user1.getUsername().compare(usr2) == 0){
+            return true;
+        }
+
+    return false;
 }

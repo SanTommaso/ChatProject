@@ -1,6 +1,5 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include <string>
 #include "../classes/User.h"
 #include "../classes/Chat.h"
 
@@ -42,4 +41,16 @@ TEST(ChatTest, ChatCanOnlyBeUsedByItsMembers){
     ASSERT_THAT(msgFromFirst.toString(),expectedFirst.toString());
     ASSERT_THAT(msgFromThird.toString(),expectedSecond.toString());
     ASSERT_FALSE(msgFromSecond.toString().compare(expectedSecond.toString()) == 0);
+}
+
+TEST(ChatTest, CheckParticipants){
+    User first("Mickey");
+    User second("Donald");
+    User third("Goofy");
+
+    Chat chat(first,second);
+    ASSERT_TRUE(chat.checkParticipants("Mickey","Donald"));
+    ASSERT_TRUE(chat.checkParticipants("Donald","Mickey"));
+    ASSERT_FALSE(chat.checkParticipants("Mickey","Goofy"));
+    ASSERT_FALSE(chat.checkParticipants("Goofy","Donald"));
 }

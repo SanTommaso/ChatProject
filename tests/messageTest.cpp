@@ -1,7 +1,6 @@
 #include <gtest/gtest.h>
 #include <string>
 #include "../classes/Message.h"
-#include "../classes/User.h"
 
 using namespace std;
 
