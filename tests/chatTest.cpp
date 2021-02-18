@@ -10,9 +10,11 @@ TEST(ChatTest, MessageInsertion){
     User second("Donald");
     Message msgFromFirst = first.writeMessage("Hi! I'm Mickey!!");
     Message msgFromSecond = second.writeMessage("Hi Mickey! my name is Donald.");
+
     Chat chat(first,second);
     chat.addMessage(msgFromFirst);
     chat.addMessage(msgFromSecond);
+
     vector<Message>::iterator it = chat.getMessages();
     Message expectedFirst = *it++;
     Message expectedSecond = *it;
