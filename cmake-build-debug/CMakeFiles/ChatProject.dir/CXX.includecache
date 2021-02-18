@@ -540,16 +540,6 @@ C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
 User.h
 C:/Users/Sendo/CLionProjects/ChatProject/classes/User.h
 
-C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.cpp
-Message.h
-C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
-string
--
-sstream
--
-ctime
--
-
 C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
 string
 -
@@ -567,10 +557,6 @@ string
 -
 Message.h
 C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
-
-C:/Users/Sendo/CLionProjects/ChatProject/main.cpp
-gtest/gtest.h
--
 
 C:/Users/Sendo/CLionProjects/ChatProject/tests/chatTest.cpp
 gtest/gtest.h
