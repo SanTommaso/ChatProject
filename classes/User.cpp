@@ -4,20 +4,16 @@
 
 using namespace std;
 
-static int progressiveID = 1;
-
 User::User(string username){
     this->username = username;
-    this->userID = progressiveID;
-    progressiveID++;
 }
 
-int User::getUserID() const {
-    return userID;
-}
-
-Message User::writeMessage(string content) {
-    Message message(content, time(nullptr), username, userID);
+Message User::writeMessage(string content) const {
+    Message message(content, time(nullptr), username);
     return message;
+}
+
+string User::getUsername() const {
+    return username;
 }
 

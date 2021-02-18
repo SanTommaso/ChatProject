@@ -7,13 +7,11 @@ using namespace std;
 
 class User {
 private:
-    int userID;
     string username;
-
 public:
     User(string username);
-    int getUserID() const;
-    Message writeMessage(string content);
+    Message writeMessage(string content) const;
+    string getUsername() const;
 };
 
 

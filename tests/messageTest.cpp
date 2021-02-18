@@ -9,8 +9,7 @@ TEST(MessageTest, ToString){
     string content = "This is a message";
     time_t timestamp = time(nullptr);
     string  username = "Mickey";
-    User user(username);
-    Message message(content, timestamp, username, user.getUserID());
+    Message message(content, timestamp, username);
 
     stringstream expectedToStringOutput;
     expectedToStringOutput << username << " - "

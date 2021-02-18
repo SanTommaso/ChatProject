@@ -10,7 +10,7 @@ Chat::Chat(const User &user1, const User &user2)
 {}
 
 void Chat::addMessage(Message message)  {
-    if(message.getSenderID() == user1.getUserID() || message.getSenderID() == user2.getUserID()){
+    if(message.getSenderUsername().compare(user1.getUsername()) == 0 || message.getSenderUsername().compare(user2.getUsername()) == 0){
         messages.push_back(message);
     } else {
         std::cout << "Only chat participants can write a message" << endl;

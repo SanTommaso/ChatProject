@@ -8,12 +8,11 @@ class Message {
 private:
     string content;
     time_t timestamp;
-    string username;
-    int senderID;
+    string senderUsername;
 public:
-    Message(string content, time_t timestamp, string username, int senderID);
-    string toString();
-    int getSenderID();
+    Message(string content, time_t timestamp, string username);
+    string toString() const ;
+    string getSenderUsername() const;
 };
 
 

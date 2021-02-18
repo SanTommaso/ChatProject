@@ -526,6 +526,12 @@ cxxabi.h
 acxx_demangle.h
 -
 
+C:/Users/Sendo/CLionProjects/ChatProject/classes/Chat.cpp
+iostream
+-
+Chat.h
+C:/Users/Sendo/CLionProjects/ChatProject/classes/Chat.h
+
 C:/Users/Sendo/CLionProjects/ChatProject/classes/Chat.h
 vector
 -
@@ -534,8 +540,26 @@ C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
 User.h
 C:/Users/Sendo/CLionProjects/ChatProject/classes/User.h
 
+C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.cpp
+Message.h
 C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
 string
+-
+sstream
+-
+ctime
+-
+
+C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
+string
+-
+
+C:/Users/Sendo/CLionProjects/ChatProject/classes/User.cpp
+User.h
+C:/Users/Sendo/CLionProjects/ChatProject/classes/User.h
+string
+-
+ctime
 -
 
 C:/Users/Sendo/CLionProjects/ChatProject/classes/User.h
@@ -543,6 +567,10 @@ string
 -
 Message.h
 C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
+
+C:/Users/Sendo/CLionProjects/ChatProject/main.cpp
+gtest/gtest.h
+-
 
 C:/Users/Sendo/CLionProjects/ChatProject/tests/chatTest.cpp
 gtest/gtest.h
@@ -555,4 +583,24 @@ string
 C:/Users/Sendo/CLionProjects/ChatProject/classes/User.h
 ../classes/Chat.h
 C:/Users/Sendo/CLionProjects/ChatProject/classes/Chat.h
+
+C:/Users/Sendo/CLionProjects/ChatProject/tests/messageTest.cpp
+gtest/gtest.h
+-
+string
+-
+../classes/Message.h
+C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
+../classes/User.h
+C:/Users/Sendo/CLionProjects/ChatProject/classes/User.h
+
+C:/Users/Sendo/CLionProjects/ChatProject/tests/userTest.cpp
+gtest/gtest.h
+-
+gmock/gmock.h
+-
+string
+-
+../classes/User.h
+C:/Users/Sendo/CLionProjects/ChatProject/classes/User.h
 
