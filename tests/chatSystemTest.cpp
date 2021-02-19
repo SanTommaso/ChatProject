@@ -20,6 +20,7 @@ TEST(ChatSystemTest, SendMessage){
     ASSERT_EQ(chatSys.getChats().size(),1);
     ASSERT_FALSE(chatSys.sendMessage("Pete","Mickey","I'm not in your chatSystem, so I shouldn't be able to send this message"));
     ASSERT_TRUE(chatSys.sendMessage("Donald","Goofy","I'm late!"));
+    ASSERT_TRUE(chatSys.sendMessage("Goofy","Donald","Augh Hyuck!"));
     ASSERT_EQ(chatSys.getChats().size(),2);
     cout << chatSys.printChats();
 }

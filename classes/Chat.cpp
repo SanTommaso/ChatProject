@@ -37,7 +37,6 @@ string Chat::Export(){
     wholeChat << "Chat between " + user1.getUsername() + " and " + user2.getUsername() + ":\n";
     for(Message msg : messages){
         wholeChat << msg.toString() << endl;
-        cout << "";
     }
 
     return wholeChat.str();

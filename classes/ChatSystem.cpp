@@ -52,21 +52,19 @@ bool ChatSystem::sendMessage(string senderUsername, string receiverUsername, str
         if(senderFound&&receiverFound) break;
     }
     if(senderFound&&receiverFound){
-        cout << "trovati\n";
-        bool found = false;
+        bool found;
         if(!chats.empty()){
-            for(Chat chat : chats){
+            for(Chat& chat : chats){
                 found = chat.checkParticipants(senderUsername, receiverUsername);
-                cout << "check = " + found;
                 if(found){
-                    cout << "\naggiungo il messaggio a chat esistente\n";
                     chat.addMessage(sender->writeMessage(content));
                     return true;
                 }
             }
         }
-        chats.emplace_back(createChat(*sender, *receiver));
-        chats.front().addMessage(sender->writeMessage(content));
+        Chat toInsert = createChat(*sender, *receiver);
+        toInsert.addMessage(sender->writeMessage(content));
+        chats.emplace_back(toInsert);
         return true;
     }
     return false;
