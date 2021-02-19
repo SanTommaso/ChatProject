@@ -1,4 +1,5 @@
 #include <iostream>
+#include <sstream>
 #include "ChatSystem.h"
 
 ChatSystem::ChatSystem() { }
@@ -50,17 +51,15 @@ bool ChatSystem::sendMessage(string senderUsername, string receiverUsername, str
         }
         if(senderFound&&receiverFound) break;
     }
-    cout << "HALFWAY\n";
     if(senderFound&&receiverFound){
-        bool found;
-        cout << "BEFORE FOR\n";
+        cout << "trovati\n";
+        bool found = false;
         if(!chats.empty()){
-            cout << "BEFORE FOR\n";
             for(Chat chat : chats){
-                cout << "NO WAY\n";
-                flush(cout);
                 found = chat.checkParticipants(senderUsername, receiverUsername);
+                cout << "check = " + found;
                 if(found){
+                    cout << "\naggiungo il messaggio a chat esistente\n";
                     chat.addMessage(sender->writeMessage(content));
                     return true;
                 }
@@ -70,6 +69,13 @@ bool ChatSystem::sendMessage(string senderUsername, string receiverUsername, str
         chats.front().addMessage(sender->writeMessage(content));
         return true;
     }
-
     return false;
+}
+
+string ChatSystem::printChats() {
+    stringstream ss;
+    for(Chat chat : chats){
+        ss << chat.Export() + "\n-------------------\n";
+    }
+    return ss.str();
 }

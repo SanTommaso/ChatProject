@@ -1,15 +1,17 @@
 #include <iostream>
+#include <sstream>
 #include "Chat.h"
 
 Chat::Chat(const User &user1, const User &user2)
 :user1(user1), user2(user2)
 {}
 
-void Chat::addMessage(Message message)  {
+bool Chat::addMessage(Message message)  {
     if(message.getSenderUsername().compare(user1.getUsername()) == 0 || message.getSenderUsername().compare(user2.getUsername()) == 0){
         messages.push_back(message);
+        return true;
     } else {
-        std::cout << "Only chat participants can write a message" << endl;
+        return false;
     }
 }
 
@@ -28,4 +30,15 @@ bool Chat::checkParticipants(string usr1, string usr2) {
         }
 
     return false;
+}
+
+string Chat::Export(){
+    stringstream wholeChat;
+    wholeChat << "Chat between " + user1.getUsername() + " and " + user2.getUsername() + ":\n";
+    for(Message msg : messages){
+        wholeChat << msg.toString() << endl;
+        cout << "";
+    }
+
+    return wholeChat.str();
 }
