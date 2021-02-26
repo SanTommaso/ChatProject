@@ -23,7 +23,7 @@ bool ChatSystem::sendMessage(string senderUsername, string receiverUsername, str
     bool senderFound = users.find(sender) != users.end();
     bool receiverFound = users.find(receiver) != users.end();
     if(senderFound&&receiverFound){
-        bool found = false;
+        bool found;
         if(!chats.empty()){
             for(Chat &chat : chats){
                 found = chat.checkParticipants(senderUsername, receiverUsername);
