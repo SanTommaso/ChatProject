@@ -16,6 +16,7 @@ public:
     bool addUser(string username);
     bool sendMessage(string senderUsername, string receiverUsername, string content);
     int chatsAmount();
+    void readAllChats(string username);
     string toString();
 };
 

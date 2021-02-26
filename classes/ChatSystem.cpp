@@ -49,3 +49,8 @@ string ChatSystem::toString() {
     }
     return ss.str();
 }
+
+void ChatSystem::readAllChats(string username) {
+    for(Chat chat : chats)
+        chat.readChat("username");
+}

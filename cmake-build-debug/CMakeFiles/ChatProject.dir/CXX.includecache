@@ -534,6 +534,22 @@ C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
 User.h
 C:/Users/Sendo/CLionProjects/ChatProject/classes/User.h
 
+C:/Users/Sendo/CLionProjects/ChatProject/classes/ChatSystem.cpp
+iostream
+-
+sstream
+-
+ChatSystem.h
+C:/Users/Sendo/CLionProjects/ChatProject/classes/ChatSystem.h
+
+C:/Users/Sendo/CLionProjects/ChatProject/classes/ChatSystem.h
+User.h
+C:/Users/Sendo/CLionProjects/ChatProject/classes/User.h
+Chat.h
+C:/Users/Sendo/CLionProjects/ChatProject/classes/Chat.h
+unordered_set
+-
+
 C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
 string
 -
@@ -546,13 +562,11 @@ C:/Users/Sendo/CLionProjects/ChatProject/classes/Message.h
 utility
 -
 
-C:/Users/Sendo/CLionProjects/ChatProject/tests/chatTest.cpp
+C:/Users/Sendo/CLionProjects/ChatProject/tests/chatSystemTest.cpp
 gtest/gtest.h
 -
 gmock/gmock.h
 -
-../classes/User.h
-C:/Users/Sendo/CLionProjects/ChatProject/classes/User.h
-../classes/Chat.h
-C:/Users/Sendo/CLionProjects/ChatProject/classes/Chat.h
+../classes/ChatSystem.h
+C:/Users/Sendo/CLionProjects/ChatProject/classes/ChatSystem.h
 
