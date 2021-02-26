@@ -2,21 +2,52 @@
 #include <sstream>
 #include "Chat.h"
 
-Chat::Chat(const User &user1, const User &user2)
-:user1(user1), user2(user2)
+Chat::Chat(User first, User second)
+:user1(first),user2(second)
 {}
 
 bool Chat::addMessage(Message message)  {
     if(message.getSenderUsername().compare(user1.getUsername()) == 0 || message.getSenderUsername().compare(user2.getUsername()) == 0){
-        messages.push_back(message);
+        messages.emplace_back(message);
         return true;
     } else {
         return false;
     }
 }
 
-vector<Message>::iterator Chat::getMessages() {
-    return messages.begin();
+int Chat::messagesAmount() {
+    return messages.size();
+}
+
+bool Chat::readChat(string username) {
+    if(username._Equal(user1.getUsername()) || username._Equal(user2.getUsername())){
+        for(Message& msg : messages){
+            if(msg.getSenderUsername()._Equal(username))
+                msg.readMessage();
+        }
+        return true;
+    } else {
+        return false;
+    }
+}
+
+Message Chat::getMessage(int index) {
+    if(messages.size() == 0)
+        throw "There are no messages in the chat, no message can be retrieved";
+
+    if(index < 0 || index > messages.size()-1)
+        throw std::invalid_argument("Invalid argument : " + index);
+
+    return messages.at(index);
+}
+
+int Chat::unreadMessagesAmount() {
+    int amount = 0;
+    for(Message msg : messages){
+        if(!msg.readStatus())
+            amount++;
+    }
+    return amount;
 }
 
 bool Chat::checkParticipants(string usr1, string usr2) {
@@ -32,7 +63,7 @@ bool Chat::checkParticipants(string usr1, string usr2) {
     return false;
 }
 
-string Chat::Export(){
+string Chat::toString(){
     stringstream wholeChat;
     wholeChat << "Chat between " + user1.getUsername() + " and " + user2.getUsername() + ":\n";
     for(Message msg : messages){
@@ -41,3 +72,5 @@ string Chat::Export(){
 
     return wholeChat.str();
 }
+
+

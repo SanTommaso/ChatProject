@@ -7,15 +7,19 @@
 
 class Chat {
 private:
-    const User& user1;
-    const User& user2;
+    User user1;
+    User user2;
     vector<Message> messages = {};
 public:
-    Chat(const User& user1,const User& user2);
+
+    Chat(User first,User second);
     bool addMessage(Message message);
-    vector<Message>::iterator getMessages();
+    Message getMessage(int index);
     bool checkParticipants(string usr1, string usr2);
-    string Export();
+    int messagesAmount();
+    bool readChat(string username);
+    int unreadMessagesAmount();
+    string toString();
 };
 
 

@@ -5,75 +5,47 @@
 ChatSystem::ChatSystem() { }
 
 bool ChatSystem::addUser(string username) {
-    bool found = false;
-    vector<User>::iterator it = users.begin();
-
-    for(it; it != users.end(); ++it){
-        found = it->getUsername().compare(username) == 0 ? true : false;
-        if(found) break;
-    }
-
-    if(!found){
-        users.push_back(User(username));
-        return true;
-    }
-
-    return false;
+    User tempUser(username);
+    auto insertionResult = users.insert(tempUser);
+    return insertionResult.second;
 }
 
 Chat ChatSystem::createChat(const User &user1, const User &user2) {
     return Chat(user1,user2);
 }
 
-vector<Chat> ChatSystem::getChats(){
-    return chats;
+int ChatSystem::chatsAmount(){
+    return chats.size();
 }
 
 bool ChatSystem::sendMessage(string senderUsername, string receiverUsername, string content) {
-    vector<User>::iterator sender = users.begin();
-    vector<User>::iterator receiver = users.begin();
-    bool senderFound = false, receiverFound = false;
-    for(int i = 0; i < users.size(); i++){
-        if(!senderFound) {
-            if(sender->getUsername().compare(senderUsername) == 0){
-                senderFound=true;
-            } else {
-                sender++;
-            }
-        }
-        if(!receiverFound){
-            if(receiver->getUsername().compare(receiverUsername) == 0){
-                receiverFound=true;
-            }
-            else{
-                receiver++;
-            }
-        }
-        if(senderFound&&receiverFound) break;
-    }
+    User sender(senderUsername), receiver(receiverUsername);
+    bool senderFound = users.find(sender) != users.end();
+    bool receiverFound = users.find(receiver) != users.end();
     if(senderFound&&receiverFound){
-        bool found;
+        bool found = false;
         if(!chats.empty()){
-            for(Chat& chat : chats){
+            for(Chat &chat : chats){
                 found = chat.checkParticipants(senderUsername, receiverUsername);
                 if(found){
-                    chat.addMessage(sender->writeMessage(content));
+                    chat.addMessage(sender.writeMessage(content));
                     return true;
                 }
             }
         }
-        Chat toInsert = createChat(*sender, *receiver);
-        toInsert.addMessage(sender->writeMessage(content));
-        chats.emplace_back(toInsert);
+        Chat toInsert = createChat(sender, receiver);
+        toInsert.addMessage(sender.writeMessage(content));
+        cout << "Aggiungo nuova chat\n";
+        chats.push_back(toInsert);
         return true;
     }
     return false;
 }
 
-string ChatSystem::printChats() {
+string ChatSystem::toString() {
     stringstream ss;
     for(Chat chat : chats){
-        ss << chat.Export() + "\n-------------------\n";
+        ss << chat.toString() + "\n-------------------\n";
     }
     return ss.str();
 }

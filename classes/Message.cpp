@@ -9,6 +9,7 @@ Message::Message(string content, time_t timestamp, string senderUsername){
     this->content = content;
     this->timestamp = timestamp;
     this->senderUsername = senderUsername;
+    this->read = false;
 }
 
 string Message::toString() const {
@@ -19,5 +20,13 @@ string Message::toString() const {
 
 string Message::getSenderUsername() const {
     return senderUsername;
+}
+
+void Message::readMessage() {
+    this->read = true;
+}
+
+bool Message::readStatus() const {
+    return read;
 }
 

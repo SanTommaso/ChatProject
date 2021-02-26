@@ -9,10 +9,13 @@ private:
     string content;
     time_t timestamp;
     string senderUsername;
+    bool read;
 public:
     Message(string content, time_t timestamp, string username);
     string toString() const ;
     string getSenderUsername() const;
+    void readMessage();
+    bool readStatus() const ;
 };
 
 
