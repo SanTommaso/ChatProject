@@ -12,7 +12,7 @@ private:
     vector<Message> messages = {};
 public:
 
-    Chat(User first,User second);
+    Chat(const User& first, const User& second);
     bool addMessage(Message message);
     Message getMessage(int index);
     bool checkParticipants(string usr1, string usr2);

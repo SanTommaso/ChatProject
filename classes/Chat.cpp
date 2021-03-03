@@ -2,7 +2,7 @@
 #include <sstream>
 #include "Chat.h"
 
-Chat::Chat(User first, User second)
+Chat::Chat(const User& first, const User& second)
 :user1(first),user2(second)
 {}
 
